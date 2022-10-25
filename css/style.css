@@ -310,6 +310,12 @@ div {
 .botones-formulario{
     display: flex;
     gap: 1rem;
+    transition: scale, 0.3s;
+}
+
+.botones-formulario :hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .boton{
